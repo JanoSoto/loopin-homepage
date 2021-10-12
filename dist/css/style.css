@@ -32,6 +32,14 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
   margin-right: inherit;
 }
 
+.features-image {
+  margin-bottom: 250px;
+}
+
+.header-logo-image, .footer-brand {
+  max-width: 100px;
+}
+
 @media (max-width: 425px) {
   .feature .feature-inner{
     flex-direction: column;
