@@ -117,12 +117,29 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 }
 
 .catalog .product {
-  width: 30%;
   margin: 15px 0;
   padding: 15px 50px;
   background-color: rgba(0, 0, 0, 0.03);
   border-radius: 30px;
-  box-shadow: 3px 3px 5px -5px #000000;
+  box-shadow: 3px 3px 5px -5px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 577px) {
+  .catalog .product {
+    width: 100%;
+  }
+}
+
+@media (min-width: 577px) {
+  .catalog .product {
+    width: 45%;
+  }
+}
+
+@media (min-width: 992px) {
+  .catalog .product {
+    width: 30%;
+  }
 }
 
 .catalog .product h3 {
