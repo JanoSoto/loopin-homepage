@@ -91,7 +91,9 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 }
 
 .package-list p {
-  font-size: 14px;
+  font-size: 22px;
+  color: #FE7E1F;
+  font-weight: bold;
   text-align: left;
 }
 
