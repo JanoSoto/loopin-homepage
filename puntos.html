@@ -62,93 +62,106 @@
                     Pueden ser de cualquier marca 👀👀
                   </p>
 
-                  <h3>Cervezas</h3>
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Tipo de envase</th>
-                        <th>Puntos Loopin</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Individual de 330cc o 355cc</td>
-                        <td>20 puntos 🍺</td>
-                      </tr>
-                      <tr>
-                        <td>Individual de 500cc</td>
-                        <td>30 puntos 🍺</td>
-                      </tr>
-                      <tr>
-                        <td>650cc o 710cc Vidrio transparente</td>
-                        <td>40 puntos 🍺</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <div class="package-options">
+                    <button class="package-option active button button-primary" data-table-id="#cervezas">
+                      Cervezas
+                    </button>
+                    <button class="package-option button button-primary" data-table-id="#licores">
+                      Licores
+                    </button>
+                    <button class="package-option button button-primary" data-table-id="#vinos">
+                      Vinos
+                    </button>
+                    <button class="package-option button button-primary" data-table-id="#jugos">
+                      Jugos
+                    </button>
+                  </div>
 
-                  <h3>Licores</h3>
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Tipo de envase</th>
-                        <th>Puntos Loopin</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>750cc Transparente</td>
-                        <td>40 puntos 🍸</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <div class="tables-container">
+                    <table class="packages-container show" id="cervezas">
+                      <thead>
+                        <tr>
+                          <th>Tipo de envase</th>
+                          <th class="min-width">Puntos Loopin</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Botella de 330cc o 355cc</td>
+                          <td>20 puntos 🍺</td>
+                        </tr>
+                        <tr>
+                          <td>Botella de 500cc</td>
+                          <td>30 puntos 🍺</td>
+                        </tr>
+                        <tr>
+                          <td>Botella de 650cc o 710cc Vidrio transparente</td>
+                          <td>40 puntos 🍺</td>
+                        </tr>
+                      </tbody>
+                    </table>
 
-                  <h3>Vinos</h3>
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Tipo de envase</th>
-                        <th>Puntos Loopin</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>750cc Verde o Transparente</td>
-                        <td>50 puntos 🍷</td>
-                      </tr>
-                      <tr>
-                        <td>Botellón 1,5 Litros Verde o Transparente</td>
-                        <td>70 puntos 🍷</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                    <table class="packages-container hidden" id="licores">
+                      <thead>
+                        <tr>
+                          <th>Tipo de envase</th>
+                          <th>Puntos Loopin</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Botella vidrio 750cc Transparente</td>
+                          <td>40 puntos 🍸</td>
+                        </tr>
+                      </tbody>
+                    </table>
 
-                  <h3>Jugos</h3>
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Tipo de envase</th>
-                        <th>Puntos Loopin</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Botella vidrio 200cc o 250cc</td>
-                        <td>20 puntos 🍊</td>
-                      </tr>
-                      <tr>
-                        <td>Botella vidrio 300cc o 350cc</td>
-                        <td>30 puntos 🍊</td>
-                      </tr>
-                      <tr>
-                        <td>Botella vidrio 475cc</td>
-                        <td>40 puntos 🍊</td>
-                      </tr>
-                      <tr>
-                        <td>Botella vidrio 1 Litro</td>
-                        <td>60 puntos 🍊</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                    <table class="packages-container hidden" id="vinos">
+                      <thead>
+                        <tr>
+                          <th>Tipo de envase</th>
+                          <th>Puntos Loopin</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Botella 750cc Verde o Transparente</td>
+                          <td>50 puntos 🍷</td>
+                        </tr>
+                        <tr>
+                          <td>Botellón 1,5 Litros Verde o Transparente</td>
+                          <td>70 puntos 🍷</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <table class="packages-container hidden" id="jugos">
+                      <thead>
+                        <tr>
+                          <th>Tipo de envase</th>
+                          <th>Puntos Loopin</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Botella vidrio 200cc o 250cc</td>
+                          <td>20 puntos 🍊</td>
+                        </tr>
+                        <tr>
+                          <td>Botella vidrio 300cc o 350cc</td>
+                          <td>30 puntos 🍊</td>
+                        </tr>
+                        <tr>
+                          <td>Botella vidrio 475cc</td>
+                          <td>40 puntos 🍊</td>
+                        </tr>
+                        <tr>
+                          <td>Botella vidrio 1 Litro</td>
+                          <td>60 puntos 🍊</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
 
                   <div class="cta-cta">
                     <a class="button button-primary" href="https://wa.me/56956837979?text=Tengo%20envases%20para%20retirar">Tengo envases para retirar</a>
@@ -229,5 +242,25 @@
   </div>
 
   <script src="dist/js/main.min.js"></script>
+  <script>
+    const package_options = document.querySelector('.package-options');
+    package_options.addEventListener('click', function(e) {
+      const packages_id = e.target.dataset.tableId;
+      if (packages_id) {
+        document.querySelectorAll('.package-option').forEach((button) => {
+          button.classList.remove('active')
+        })
+
+        document.querySelectorAll('.packages-container').forEach((package) => {
+          package.classList.add('hidden');
+          package.classList.remove('show');
+        });
+
+        e.target.classList.add('active');
+        document.querySelector(packages_id).classList.remove('hidden');
+        document.querySelector(packages_id).classList.add('show');
+      }
+    });
+  </script>
 </body>
 </html>
