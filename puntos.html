@@ -75,6 +75,12 @@
                     <button class="package-option button button-primary" data-table-id="#jugos">
                       Jugos
                     </button>
+                    <button class="package-option button button-primary" data-table-id="#aguas">
+                      Aguas
+                    </button>
+                    <button class="package-option button button-primary" data-table-id="#otros">
+                      Otros
+                    </button>
                   </div>
 
                   <div class="tables-container">
@@ -110,8 +116,40 @@
                       </thead>
                       <tbody>
                         <tr>
-                          <td>Botella vidrio 750cc Transparente</td>
-                          <td>40 puntos 🍸</td>
+                          <td>Botella Vidrio 275cc</td>
+                          <td>20 puntos 🍸</td>
+                        </tr>
+                        <tr>
+                          <td>Botella Pisco 700cc o 750cc</td>
+                          <td>50 puntos 🍸</td>
+                        </tr>
+                        <tr>
+                          <td>Botella Aperitivo 700cc o 750cc</td>
+                          <td>60 puntos 🍸</td>
+                        </tr>
+                        <tr>
+                          <td>Botella Ron 700cc o 750cc</td>
+                          <td>60 puntos 🍸</td>
+                        </tr>
+                        <tr>
+                          <td>Botella Vodka 750cc</td>
+                          <td>70 puntos 🍸</td>
+                        </tr>
+                        <tr>
+                          <td>Botella Baileys 750cc</td>
+                          <td>70 puntos 🍸</td>
+                        </tr>
+                        <tr>
+                          <td>Botella Tequila 750cc</td>
+                          <td>70 puntos 🍸</td>
+                        </tr>
+                        <tr>
+                          <td>Botella Gin 700cc o 750cc</td>
+                          <td>100 puntos 🍸</td>
+                        </tr>
+                        <tr>
+                          <td>Botella Whisky 700cc o 750cc</td>
+                          <td>100 puntos 🍸</td>
                         </tr>
                       </tbody>
                     </table>
@@ -125,11 +163,15 @@
                       </thead>
                       <tbody>
                         <tr>
-                          <td>Botella 750cc Verde o Transparente</td>
+                          <td>Botella 750cc</td>
                           <td>50 puntos 🍷</td>
                         </tr>
                         <tr>
-                          <td>Botellón 1,5 Litros Verde o Transparente</td>
+                          <td>Espumante 750cc</td>
+                          <td>50 puntos 🍷</td>
+                        </tr>
+                        <tr>
+                          <td>Botellón 1,5 Litros</td>
                           <td>70 puntos 🍷</td>
                         </tr>
                       </tbody>
@@ -158,6 +200,48 @@
                         <tr>
                           <td>Botella vidrio 1 Litro</td>
                           <td>60 puntos 🍊</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <table class="packages-container hidden" id="aguas">
+                      <thead>
+                        <tr>
+                          <th>Tipo de envase</th>
+                          <th>Puntos Loopin</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Botella vidrio 200cc o 250cc</td>
+                          <td>20 puntos 💧</td>
+                        </tr>
+                        <tr>
+                          <td>Botella vidrio 300cc, 330cc o 350cc</td>
+                          <td>30 puntos 💧</td>
+                        </tr>
+                        <tr>
+                          <td>Botella vidrio 475cc o 500cc</td>
+                          <td>40 puntos 💧</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <table class="packages-container hidden" id="otros">
+                      <thead>
+                        <tr>
+                          <th>Tipo de envase</th>
+                          <th>Puntos Loopin</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Sidra 275cc o 330cc</td>
+                          <td>20 puntos 🥤</td>
+                        </tr>
+                        <tr>
+                          <td>Tónica 200cc</td>
+                          <td>20 puntos 🥤</td>
                         </tr>
                       </tbody>
                     </table>
@@ -259,6 +343,12 @@
         e.target.classList.add('active');
         document.querySelector(packages_id).classList.remove('hidden');
         document.querySelector(packages_id).classList.add('show');
+
+        let minHeight = window.innerWidth < 577 ? '400px' : '380px';
+        if (packages_id === '#licores') {
+          minHeight = window.innerWidth < 577 ? '820px' : '685px';
+        }
+        document.querySelector('.tables-container').style.minHeight = minHeight;
       }
     });
   </script>
