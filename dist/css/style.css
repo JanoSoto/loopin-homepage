@@ -4,6 +4,12 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
   text-align: left;
 }
 
+.doble-puntos {
+  color: #FE7E1F;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .section-paragraph {
   padding: 0 !important;
 }
