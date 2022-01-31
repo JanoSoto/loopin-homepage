@@ -350,9 +350,15 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
   width: 200%;
   justify-content: flex-start;
 }
+@media (max-width: 768px) {
+  .parter-category-container {
+    width: 100%;
+  }
+}
 
 .parter-category-container .product {
   margin-right: 20px;
+  text-align: left;
 }
 
 .parter-category-container .product .img-container {
@@ -382,6 +388,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 .parter-category-container .product h6 {
   margin-top: 10px;
   font-size: 18px;
+  text-align: left;
 }
 
 .parter-category-container .product ul {
