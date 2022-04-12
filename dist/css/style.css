@@ -139,6 +139,10 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
   box-shadow: 3px 3px 5px -5px rgba(0, 0, 0, 0.3);
 }
 
+.catalog .product img {
+  border-radius: 15px;
+}
+
 @media (max-width: 577px) {
   .catalog .product {
     width: 100%;
