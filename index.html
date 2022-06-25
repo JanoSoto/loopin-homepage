@@ -85,7 +85,7 @@
 					<div class="features-inner section-inner has-bottom-divider">
 						<div class="features-header text-center">
 							<div class="container-sm">
-								<h2 class="section-title mt-0">Dale una nueva vida a tus botellas de cerveza</h2>
+								<h2 class="section-title mt-0">Dale una nueva vida a tus botellas de <span id="package-type">cerveza</span></h2>
                 <p class="section-paragraph">Loopin es la solución para reutilizar todos los envases que sean reutilizables desde la comodidad de tu casa, sin necesidad de destruirlos para crear uno nuevo</p>
 
 								<div class="features-image">
@@ -94,7 +94,11 @@
 									<img class="features-illustration asset-dark" src="dist/images/features-illustration-top-dark.svg" alt="Feature illustration top">
 									<img class="features-illustration asset-light" src="dist/images/features-illustration-light.svg" alt="Feature illustration">
 									<img class="features-box asset-light" src="dist/images/proceso-loopin.gif" alt="Feature box">
-								</div>
+                </div>
+
+                <div class="cta-cta centered-button">
+                  <a class="button button-primary" href="puntos">Revisa acá todos los envases que recibimos</a>
+                </div>
 
                 <h2 class="hero-title mt-0 doble-puntos">Acumulas el doble de puntos en tu primera entrega 🎁</h2>
 
@@ -221,6 +225,23 @@
   </div>
 
   <script src="dist/js/main.min.js"></script>
+  <script>
+    const packagesTypes = ['cerveza', 'vino', 'pisco', 'whisky', 'espumante', 'ron', 'tequila', 'vodka', 'jugo', 'agua', 'kombucha', 'sidra'];
+
+    function start(index, totalOptions) {
+      setTimeout(function() {
+        document.querySelector('#package-type').innerHTML = packagesTypes[index];
+
+        // Again
+        start((index + 1) % totalOptions, totalOptions);
+
+        // Every 3 sec
+      }, 2000);
+    }
+
+    // Begins
+    start(1, packagesTypes.length);
+  </script>
 
   <div class="icons-license">
     <a target="_blank" href="https://icons8.com/icon/L5EcV7bxwiu2/recycle">Recycle</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
