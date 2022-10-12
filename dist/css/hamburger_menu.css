@@ -88,7 +88,7 @@ label ul {
   text-align: center;
 }
 
-label a, label a:active {
+label a, label a:active, label a:visited, label a:hover {
   margin-bottom: 1em;
   display: block;
   color: #f38630;
