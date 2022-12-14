@@ -178,8 +178,19 @@ body {}
   }
 }
 
+.catalog .product .sell-by {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.catalog .product .sell-by .brand {
+  font-size: 18px;
+  color: #FE7E1F;
+}
+
 .catalog .product h3 {
   margin: 0;
+  margin-top: 15px;
   min-height: 3.5rem;
 }
 
