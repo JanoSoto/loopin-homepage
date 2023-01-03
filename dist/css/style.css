@@ -220,6 +220,10 @@ body {}
   margin: 0;
 }
 
+.button-primary:disabled {
+  background-color: #BCBCBC;
+}
+
 .catalog .product .button-primary {
   margin-top: 25px;
   margin-bottom: 15px;
