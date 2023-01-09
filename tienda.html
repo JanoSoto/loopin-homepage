@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
   <link rel="stylesheet" href="dist/css/style.css">
   <link rel="stylesheet" href="dist/css/hamburger_menu.css">
+  <link rel="stylesheet" href="dist/css/tooltip.css">
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   <link rel="icon" href="dist/images/favicon.ico" type="image/x-icon">
 
@@ -94,7 +95,9 @@
           <div class="catalog">
             <div class="product">
               <p class="sell-by">Vendido por <span class="brand">Loopin</span></p>
-              <img src="dist/images/products/lamparas.jpg">
+              <div class="image-container">
+                <img src="dist/images/products/lamparas.jpg">
+              </div>
               <h3>Lámpara LED con Pilas</h3>
               <div class="loopin-price">
                 <p>3.000 puntos</p>
@@ -107,41 +110,54 @@
 
             <div class="product">
               <p class="sell-by">Vendido por <span class="brand">Chela Wena</span></p>
-              <img src="dist/images/products/[Chela-Wena]Pack-Avalancha.jpeg">
-              <h3>Pack Avalancha</h3>
+              <div class="image-container">
+                <img src="dist/images/products/[Chela-Wena]Pack-Principiantes.jpeg">  
+              </div>
+              <h3 class="tooltip">
+                Pack Principiantes
+                <img src="dist/images/info-icon.svg"> 
+                <div class="top">
+                  <ol>
+                    <li>Camelot - Benbrau</li>
+                    <li>Buen Viaje - Avalancha</li>
+                    <li>Super Smash - Backhouse</li>
+                  </ol>
+                  <i></i>
+                </div>
+              </h3>
               <div class="loopin-price">
-                <p>8.500 puntos</p>
+                <p>9.500 puntos</p>
                 <img src="dist/images/loopin-logo-small.png">
               </div>
-              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20comprar%20un%20Pack%20Avalancha">
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20comprar%20un%20Pack%20Principiantes">
                 Comprar
               </a>
             </div>
 
             <div class="product">
               <p class="sell-by">Vendido por <span class="brand">Chela Wena</span></p>
-              <img src="dist/images/products/[Chela-Wena]Pack-CNC.jpeg">
-              <h3>Pack CNC</h3>
+              <div class="image-container">
+                <img src="dist/images/products/[Chela-Wena]Pack-Valientes.jpg">
+              </div>
+              <h3 class="tooltip">
+                Pack Valientes
+                <img src="dist/images/info-icon.svg"> 
+                <div class="top">
+                  <ol>
+                    <li>Bob - Benbrau</li>
+                    <li>Imperial Stout - Caleu</li>
+                    <li>Bruma - Avalancha</li>
+                  </ol>
+                  <i></i>
+                </div>
+              </h3>
               <div class="loopin-price">
-                <p>8.500 puntos</p>
+                <p>9.500 puntos</p>
                 <img src="dist/images/loopin-logo-small.png">
               </div>
-              <button disabled class="button button-primary">
-                Agotado 😥
-              </button>
-            </div>
-
-            <div class="product">
-              <p class="sell-by">Vendido por <span class="brand">Chela Wena</span></p>
-              <img src="dist/images/products/[Chela-Wena]Pack-BDT.jpeg">
-              <h3>Pack BDT</h3>
-              <div class="loopin-price">
-                <p>8.500 puntos</p>
-                <img src="dist/images/loopin-logo-small.png">
-              </div>
-              <button disabled class="button button-primary">
-                Agotado 😥
-              </button>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20comprar%20un%20Pack%20Valientes">
+                Comprar
+              </a>
             </div>
 
           </div>
