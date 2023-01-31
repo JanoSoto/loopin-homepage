@@ -332,7 +332,7 @@ body {}
 }
 
 .notices article {
-  margin-bottom: 50px;
+  margin: 60px 0;
 }
 
 .notices article h3 {
@@ -468,6 +468,9 @@ body {}
 }
 .notice a {
   font-weight: bold;
+}
+.notice article {
+  margin: 50px 0;
 }
 
 @media (max-width: 768px) {
