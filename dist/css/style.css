@@ -459,6 +459,17 @@ body {}
   max-width: 20%;
 }
 
+.notice {
+  text-align: left;
+}
+.notice strong {
+  color: #FE7E1F;
+  font-weight: bold;
+}
+.notice a {
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .partner-category-container {
     width: 100%;
