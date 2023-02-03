@@ -46,8 +46,7 @@
             <a href="/noticias/index">
               Noticias
             </a>
-          </div>
-        </div>
+          </div>        </div>
       </div>
 
       <!-- Menú hamburguesa para mobile -->
@@ -114,7 +113,10 @@
                       Aguas
                     </button>
                     <button class="package-option button button-primary" data-table-id="#otros">
-                      Otros
+                      Mixers & Otros
+                    </button>
+                    <button class="package-option button button-primary" data-table-id="#frascos">
+                      Frascos
                     </button>
                   </div>
 
@@ -155,36 +157,12 @@
                           <td>20 puntos 🍸</td>
                         </tr>
                         <tr>
-                          <td>Botella Pisco 700cc o 750cc</td>
+                          <td>Botella Vidrio 700cc o 750cc</td>
                           <td>50 puntos 🍸</td>
                         </tr>
                         <tr>
-                          <td>Botella Aperitivo 700cc o 750cc</td>
+                          <td>Botella Vidrio 1 Litro</td>
                           <td>60 puntos 🍸</td>
-                        </tr>
-                        <tr>
-                          <td>Botella Ron 700cc o 750cc</td>
-                          <td>60 puntos 🍸</td>
-                        </tr>
-                        <tr>
-                          <td>Botella Vodka 750cc</td>
-                          <td>70 puntos 🍸</td>
-                        </tr>
-                        <tr>
-                          <td>Botella Baileys 750cc</td>
-                          <td>70 puntos 🍸</td>
-                        </tr>
-                        <tr>
-                          <td>Botella Tequila 750cc</td>
-                          <td>70 puntos 🍸</td>
-                        </tr>
-                        <tr>
-                          <td>Botella Gin 700cc o 750cc</td>
-                          <td>100 puntos 🍸</td>
-                        </tr>
-                        <tr>
-                          <td>Botella Whisky 700cc o 750cc</td>
-                          <td>100 puntos 🍸</td>
                         </tr>
                       </tbody>
                     </table>
@@ -288,6 +266,33 @@
                         </tr>
                       </tbody>
                     </table>
+
+                    <table class="packages-container hidden" id="frascos">
+                      <thead>
+                        <tr>
+                          <th>Tipo de envase</th>
+                          <th>Puntos Loopin</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Frasco 100cc o menos</td>
+                          <td>20 puntos 🧂</td>
+                        </tr>
+                        <tr>
+                          <td>Frasco 200cc o menos</td>
+                          <td>30 puntos 🧂</td>
+                        </tr>
+                        <tr>
+                          <td>Frasco 500cc o menos</td>
+                          <td>40 puntos 🧂</td>
+                        </tr>
+                        <tr>
+                          <td>Frasco 1.000cc o menos</td>
+                          <td>50 puntos 🧂</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
 
                   <p>
@@ -303,7 +308,7 @@
                 <div class="feature is-revealing">
                   <h3>Importante <span class="no-bold">📢</span></h3>
                   <p>
-                    Para agendar un retiro debes tener <strong>al menos 20 envases</strong>. Pueden ser de cualquier tipo, pero deben ser 20.
+                    Para agendar un retiro debes tener <strong>al menos 30 envases</strong>. Pueden ser de cualquier tipo, pero deben ser 30.
                   </p>
                   <p>
                     Solo los envases en buen estado acumulan puntos.
@@ -401,10 +406,6 @@
         document.querySelector(packages_id).classList.remove('hidden');
         document.querySelector(packages_id).classList.add('show');
 
-        let minHeight = window.innerWidth < 577 ? '400px' : '380px';
-        if (packages_id === '#licores') {
-          minHeight = window.innerWidth < 577 ? '820px' : '685px';
-        }
         document.querySelector('.tables-container').style.minHeight = minHeight;
       }
     });

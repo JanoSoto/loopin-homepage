@@ -242,7 +242,7 @@ body {}
 
 .tables-container {
   position: relative;
-  min-height: 380px;
+  min-height: 400px;
 }
 
 .packages-container {
@@ -286,12 +286,12 @@ body {}
 
 @media (max-width: 577px) {
   .tables-container {
-    min-height: 400px;
+    min-height: 440px;
   }
 
   .packages-container {
+    margin: 30px 0;
     text-align: left;
-    margin: 0;
   }
 
   .package-option {
