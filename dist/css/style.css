@@ -6,7 +6,7 @@ body {}
   text-align: left;
 }
 
-#package-type {
+#package-type, #product-type {
   color: #FE7E1F;
 }
 
@@ -483,6 +483,13 @@ body {}
   margin: 50px 0;
 }
 
+.inline-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0;
+  margin-top: -24px;
+}
+
 @media (max-width: 768px) {
   .partner-category-container {
     width: 100%;
@@ -494,6 +501,11 @@ body {}
 
   .logos-carousel a {
     max-width: 30%;
+  }
+
+  .inline-buttons {
+    flex-direction: column;
+    padding: 25px;
   }
 }
 
