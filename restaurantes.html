@@ -80,7 +80,7 @@
         <div class="container">
           <div class="hero-inner">
             <div class="hero-copy">
-              <h1 class="hero-title mt-0">Hagamos que tu restaurant sea un gran lugar para tus clientes y <span class="loopin-accent">para el planeta</span></h1>
+              <h1 class="hero-title mt-0">Tu <span id="location-type">restaurant</span> es gran lugar para tus clientes. Hagamos que también lo sea <span class="loopin-accent">para el planeta</span></h1>
               <p class="hero-paragraph">Démosle una nueva vida a las botellas de vidrio que desechan.</p>
               <p class="hero-paragraph">Las vamos a buscar a tu local y las devolvemos en forma de cristalería y decoración para tu salón.</p>
 
@@ -245,16 +245,19 @@
   <script src="//embed.typeform.com/next/embed.js"></script>
   <script>
     const packagesTypes = ['vasos', 'floreros', 'lámparas', 'dispensadores', 'velas'];
+    const locationsTypes = ['restaurant', 'bar', 'cafetería'];
 
-    function start(index, totalOptions) {
+    function start(index, options, selector) {
+      const totalOptions = options.length;
       setTimeout(function() {
-        document.querySelector('#product-type').innerHTML = packagesTypes[index];
+        document.querySelector(selector).innerHTML = options[index];
 
-        start((index + 1) % totalOptions, totalOptions);
+        start((index + 1) % totalOptions, options, selector);
 
       }, 2000);
     }
-    start(1, packagesTypes.length);
+    start(1, packagesTypes, '#product-type');
+    start(1, locationsTypes, '#location-type');
   </script>
 
   <div class="icons-license">
