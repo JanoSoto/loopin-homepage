@@ -221,6 +221,33 @@ body {}
   margin: 0;
 }
 
+.catalog .product .old-price {
+  color: #FE7E1F;
+  font-weight: 600;
+  margin-top: -20px;
+  margin-bottom: -10px;
+  font-size: 16px;
+}
+
+.catalog .product .old-price span {
+  position: relative;
+}
+.catalog .product .old-price span:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 40%;
+  right: 0;
+  border-top: 3px solid;
+  border-color: inherit;
+  
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+}
+
 .catalog .product .loopin-price {
   color: #FE7E1F;
   font-weight: 600;
