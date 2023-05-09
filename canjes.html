@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loopin</title>
+  <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/hamburger_menu.css">
+  <link rel="stylesheet" href="dist/css/tooltip.css">
+  <link rel="stylesheet" href="dist/css/offer_badge.css">
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <link rel="icon" href="dist/images/favicon.ico" type="image/x-icon">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-211615133-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-211615133-1');
+  </script>
+
+
+</head>
+<body class="is-boxed has-animations">
+  <div class="body-wrap boxed-container">
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header-inner">
+          <div class="brand header-brand">
+            <h1 class="m-0">
+              <a href="index.html">
+                <img class="header-logo-image asset-light" src="dist/images/loopin-logo-small.png" alt="Logo">
+                <img class="header-logo-image asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
+              </a>
+            </h1>
+          </div>
+          <div class="options">
+            <a href="/tienda">
+              Tienda
+            </a>
+            <a href="/puntos">
+              Puntos por envase
+            </a>
+            <a href="/canjes">
+              Canjea tus puntos
+            </a>
+            <a href="/noticias/index">
+              Noticias
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menú hamburguesa para mobile -->
+      <label class="burger-menu">
+        <input type="checkbox">
+        <span class="menu"> <span class="hamburger"></span> </span>
+        <ul>
+          <li>
+            <a href="/tienda">
+              Tienda
+            </a>
+          </li>
+          <li>
+            <a href="/puntos">
+              Puntos por envase
+            </a>
+          </li>
+          <li>
+            <a href="/tienda">
+              Canjea tus puntos
+            </a>
+          </li>
+          <li>
+            <a href="/noticias/index">
+              Noticias
+            </a>
+          </li>
+        </ul>
+      </label>
+      <!-- FIN - Menú hamburguesa para mobile -->
+    </header>
+
+    <main>
+      <section class="products">
+        <div class="container">
+          <h1 class="hero-title">Centro de canjes</h1>
+          <p class="hero-paragraph">¡Canjea aquí tus puntos Loopin!</p>
+
+          <h2 class="loopin-accent">Cupones</h2>
+          <p class="hero-paragraph feature is-revealing no-margin notice">
+            Canjea cupones que puedes usar en tu próxima compra en <a href="/tienda">nuestra tienda online</a> 🛒
+          </p>
+          <div class="catalog">
+            <div class="product">
+              <div class="image-container">
+                <img src="dist/images/cupones_loopin/10%.png">
+              </div>
+              <h3>Cupón 10% dcto en Tienda Loopin</h3>
+              <div class="loopin-price">
+                <p>1.000 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%20Cupón%20de%2010%%20de%20descuento%20en%20la%20Tienda%20Loopin">
+                Canjear
+              </a>
+            </div>
+            
+            <div class="product">
+              <div class="image-container">
+                <img src="dist/images/cupones_loopin/15%.png">
+              </div>
+              <h3>Cupón 15% dcto en Tienda Loopin</h3>
+              <div class="loopin-price">
+                <p>1.500 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%20Cupón%20de%2015%%20de%20descuento%20en%20la%20Tienda%20Loopin">
+                Canjear
+              </a>
+            </div>
+
+            <div class="product">
+              <div class="image-container">
+                <img src="dist/images/cupones_loopin/20%.png">
+              </div>
+              <h3>Cupón 20% dcto en Tienda Loopin</h3>
+              <div class="loopin-price">
+                <p>2.000 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%20Cupón%20de%2020%%20de%20descuento%20en%20la%20Tienda%20Loopin">
+                Canjear
+              </a>
+            </div>
+          </div>
+
+
+          <h2 class="loopin-accent">Productos</h2>
+          <p class="hero-paragraph feature is-revealing no-margin notice">
+            Canjea productos de nuestras tiendas amigas usando los puntos Loopin que ganaste 🥰
+          </p>
+          <div class="feature is-revealing no-margin">
+            <h3>Condiciones de despacho 🚚</h3>
+            <p class="notice">
+              El despacho tiene un costo de <span class="loopin-accent">2.000 puntos Loopin</span>. 
+            </p>
+            <p class="notice">
+              Pero si combinas tu compra con un <strong>retiro de envases</strong>, el despacho es <span class="loopin-accent">gratis</span>.
+            </p>
+          </div>
+          <div class="catalog">
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Chela Wena</span></p>
+              <div class="image-container">
+                <img src="dist/images/products/Pack-Suaves-Walung.jpeg" style="margin-top: -60px;">  
+              </div>
+              <h3 class="tooltip">
+                Pack Suaves de Walung
+                <div class="explanation">
+                  ¿Qué contiene? 
+                  <img src="dist/images/info-icon.svg"> 
+                </div>
+                <div class="top">
+                  <ol>
+                    <li>Rubia Sabrocitra - IPA</li>
+                    <li>Roja Sideral - Scotish Ale</li>
+                    <li>Viena Blond - Blond Ale</li>
+                  </ol>
+                  <i></i>
+                </div>
+              </h3>
+              <div class="loopin-price">
+                <p>8.500 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <button class="button button-primary" disabled>
+                Agotado
+              </button> 
+              <!--
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%20Pack%20Suaves%20de%20Walung">
+                Canjear
+              </a>
+              -->
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Chela Wena</span></p>
+              <div class="image-container">
+                <img src="dist/images/products/Pack-Maldito-Vikingo.jpeg" style="margin-top: -60px;">
+              </div>
+              <h3 class="tooltip">
+                Pack Maldito Vikingo
+                <div class="explanation">
+                  ¿Qué contiene? 
+                  <img src="dist/images/info-icon.svg"> 
+                </div>
+                <div class="top">
+                  <ul>
+                    <li>Fruit Bier</li>
+                    <li>IPA</li>
+                    <li>Scotish</li>
+                  </ul>
+                  <i></i>
+                </div>
+              </h3>
+              <div class="loopin-price">
+                <p>8.500 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <button class="button button-primary" disabled>
+                Agotado
+              </button> 
+              <!--
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%20Pack%20Maldito%20Vikingo">
+                Canjear
+              </a>
+              -->
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Gingaro</span></p>
+              <div class="image-container">
+                <img src="dist/images/products/Botella Gingaro.png">
+              </div>
+              <h3 class="tooltip">
+                4 Pack Ginger Beer Tradicional
+              </h3>
+              <div class="loopin-price">
+                <p>4.800 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%204%20Pack%20Ginger%20Beer%20Tradicional">
+                Canjear
+              </a>
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Gingaro</span></p>
+              <div class="image-container">
+                <img src="dist/images/products/gingermule.jpg">
+              </div>
+              <h3 class="tooltip">
+                4 Pack Ginger Mule
+                <div class="explanation">
+                  ¿Qué contiene? 
+                  <img src="dist/images/info-icon.svg"> 
+                </div>
+                <div class="top">
+                  Esta Ginger Beer combina jengibre, limón sutil y menta. Creando una mezcla refrescante y ligeramente dulce. Ideal para preparar Moscow Mule.
+                  <i></i>
+                </div>
+              </h3>
+              <div class="loopin-price">
+                <p>4.800 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%204%20Pack%20Ginger%20Mule">
+                Canjear
+              </a>
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Gingaro</span></p>
+              <div class="image-container">
+                <img src="dist/images/products/gingerjamaica.jpg">
+              </div>
+              <h3 class="tooltip">
+                4 Pack Ginger Jamaica
+                <div class="explanation">
+                  ¿Qué contiene? 
+                  <img src="dist/images/info-icon.svg"> 
+                </div>
+                <div class="top">
+                  En esta Ginger Beer, la flor de jamaica se mezcla con nuestro jengibre natural para dar lugar a una Ginger Beer con un toque de acidez y una nota floral sutil.
+                  <i></i>
+                </div>
+              </h3>
+              <div class="loopin-price">
+                <p>4.800 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%204%20Pack%20Ginger%20Beer%20Tradicional">
+                Canjear
+              </a>
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Gingaro</span></p>
+              <div class="image-container">
+                <img src="dist/images/products/gingermix.jpg">
+              </div>
+              <h3 class="tooltip">
+                6 Pack Ginger Mix
+                <div class="explanation">
+                  ¿Qué contiene? 
+                  <img src="dist/images/info-icon.svg"> 
+                </div>
+                <div class="top">
+                  Este mix contiene
+                  <ul>
+                    <li>2 Ginger Beer Tradicional</li>
+                    <li>2 Ginger Mule</li>
+                    <li>2 Ginger Jamaica</li>
+                  </ul>
+                  <i></i>
+                </div>
+              </h3>
+              <div class="loopin-price">
+                <p>7.200 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%204%20Pack%20Ginger%20Beer%20Tradicional">
+                Canjear
+              </a>
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Cervecería Caleu</span></p>
+              <div class="image-container">
+                <img src="dist/images/products/Caleu-4.jpg">
+              </div>
+              <h3 class="tooltip">
+                6 Pack Imperial Stout Caleu
+              </h3>
+              <div class="loopin-price">
+                <p>6.000 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <button class="button button-primary" disabled>
+                Agotado
+              </button> 
+              <!--
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%206%20Pack%20Imperial%20Stout%20Caleu">
+                Canjear
+              </a>
+              -->
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Botellas Upcycling</span></p>
+              <span class="sale">-20%</span>
+              <div class="image-container">
+                <img src="dist/images/products/vasos-reciclados-corona-1.jpg">
+              </div>
+              <h3 class="tooltip">
+                6 Unidades Vaso corto Corona
+              </h3>
+              <div class="old-price">
+                <span>6.300</span>
+              </div>
+              <div class="loopin-price">
+                <p>5.040 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%206%20Unidades%20Vaso%20corto%20Corona">
+                Canjear
+              </a>
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Una Botillería Más</span></p>
+              <div class="image-container">
+                <img src="dist/images/products/4-pack Bundor.jpg">
+              </div>
+              <h3 class="tooltip">
+                4 Pack Bundor
+                <div class="explanation">
+                  ¿Qué contiene? 
+                  <img src="dist/images/info-icon.svg"> 
+                </div>
+                <div class="top">
+                  <ol>
+                    <li>Nessi - Wee Heavy</li>
+                    <li>Troll - Oatmeeal Stout</li>
+                    <li>Kali - American IPA</li>
+                    <li>Elfa - Blond Ale</li>
+                  </ol>
+                  <i></i>
+                </div>
+              </h3>
+              <div class="loopin-price">
+                <p>6.900 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%204%20Pack%20Bundor">
+                Canjear
+              </a>
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Una Botillería Más</span></p>
+              <div class="image-container">
+                <img src="dist/images/products/6-pack Cuello Negro.jpg">
+              </div>
+              <h3 class="tooltip">
+                6 Pack Cuello Negro
+                <div class="explanation">
+                  ¿Qué contiene? 
+                  <img src="dist/images/info-icon.svg"> 
+                </div>
+                <div class="top">
+                  <ul>
+                    <li>3 Stouts</li>
+                    <li>3 Ambar</li>
+                  </ul>
+                  <i></i>
+                </div>
+              </h3>
+              <div class="loopin-price">
+                <p>9.100 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%206%20Pack%20Cuello%20Negro">
+                Canjear
+              </a>
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Una Botillería Más</span></p>
+              <span class="sale">-20%</span>
+              <div class="image-container">
+                <img src="dist/images/products/3-Pack Japi.jpg">
+              </div>
+              <h3 class="tooltip">
+                3 Pack Japi
+              </h3>
+              <div class="old-price">
+                <span>7.500</span>
+              </div>
+              <div class="loopin-price">
+                <p>6.000 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%203%20Pack%20Japi">
+                Canjear
+              </a>
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Alquitara</span></p>
+              <div class="image-container">
+                <img src="dist/images/products/Kombucha-kombox-Alquitara.png">
+              </div>
+              <h3 class="tooltip">
+                3 Pack Kombucha Kombox Té Verde
+              </h3>
+              <div class="loopin-price">
+                <p>5.000 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%203%20Pack%20Kombucha%20Kombox%20Té%20Verde">
+                Canjear
+              </a>
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Hydrio</span></p>
+              <div class="image-container">
+                <img src="dist/images/products/Pack-Hydrio.jpeg">
+              </div>
+              <h3 class="tooltip">
+                Pack 2 Lámparas Led con pilas Hydrio
+              </h3>
+              <div class="loopin-price">
+                <p>5.500 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%20Pack%202%20Lámparas%20Led%20Hydrio">
+                Canjear
+              </a>
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Una Botillería Más</span></p>
+              <div class="image-container">
+                <img src="dist/images/products/Pack-Delirium.jpeg">
+              </div>
+              <h3 class="tooltip">
+                Pack Delirium con Copa
+                <div class="explanation">
+                  ¿Qué contiene? 
+                  <img src="dist/images/info-icon.svg"> 
+                </div>
+                <div class="top">
+                  <ul>
+                    <li>Argentum - IPA</li>
+                    <li>Nocturnum - Strong Dark Ale</li>
+                    <li>Red - Fruit Beer</li>
+                    <li>Tremens - Belgian Strong Pale Ale</li>
+                  </ul>
+                  <i></i>
+                </div>
+              </h3>
+              <div class="loopin-price">
+                <p>21.000 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%20Pack%20Delirium%20con%20Copa">
+                Canjear
+              </a>
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Benbrau</span></p>
+              <div class="image-container">
+                <img src="dist/images/products/6-pack-benbrau.JPG">
+              </div>
+              <h3 class="tooltip">
+                6 Pack Mixto Benbrau
+                <div class="explanation">
+                  ¿Qué contiene? 
+                  <img src="dist/images/info-icon.svg"> 
+                </div>
+                <div class="top">
+                  Mix con lo mejor de Benbrau. Puede contener cualquiera de los siguientes estilos
+                  <ul>
+                    <li>Brexit - English IPA</li>
+                    <li>Contact - Doble IPA con Maracuyá</li>
+                    <li>Bob - Blonde Ale Piña</li>
+                    <li>Camelot - Porter Mora</li>
+                  </ul>
+                  <i></i>
+                </div>
+              </h3>
+              <div class="loopin-price">
+                <p>9.500 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%206%20Pack%20Mixto%20Benbrau">
+                Canjear
+              </a>
+            </div>
+
+            <div class="product">
+              <p class="sell-by">Vendido por <span class="brand">Benbrau</span></p>
+              <div class="image-container">
+                <img src="dist/images/products/Gin-12-noches.jpeg">
+              </div>
+              <h3 class="tooltip">
+                Gin 12 Noches
+              </h3>
+              <div class="loopin-price">
+                <p>7.800 puntos</p>
+                <img src="dist/images/loopin-logo-small.png">
+              </div>
+              <button class="button button-primary" disabled>
+                Agotado
+              </button> 
+              <!--
+              <a class="button button-primary" href="https://wa.me/56956837979?text=Quiero%20canjear%20un%20Gin%2012%20Noches">
+                Canjear
+              </a>
+              -->
+            </div>
+
+            <div class="product empty-product"></div>
+          </div>
+
+          <div class="feature is-revealing">
+            <h3>Importante 📢</h3>
+            <ol>
+              <li>Valores disponibles hasta agotar stock.</li>
+              <li>Los canjes sólo se pueden realizar usando <span class="loopin-accent">puntos Loopin</span></li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer has-top-divider">
+      <div class="container">
+        <div class="site-footer-inner">
+          <div class="footer-copyright">&copy; 2023 Loopin, todos los derechos reservados</div>
+          <div class="brand footer-brand">
+            <a href="#">
+              <img class="asset-light" src="dist/images/loopin-logo-small.png" alt="Logo">
+              <img class="asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
+            </a>
+          </div>
+          <ul class="footer-links list-reset">
+            <li>
+              <a href="/tienda">
+                Tienda
+              </a>
+            </li>
+            <li>
+              <a href="/puntos">
+                Puntos por envase
+              </a>
+            </li>
+            <li>
+              <a href="/canjes">
+                Canjea tus puntos
+              </a>
+            </li>
+            <li>
+              <a href="/noticias/index">
+                Noticias
+              </a>
+            </li>
+            <li></li>
+            <li>
+              <a href="/restaurantes">
+                Restaurantes, Bares y Cafés
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="social-networks">
+        ¡Síguenos en nuestras redes sociales!
+        <p>
+          <a href="https://www.instagram.com/loopin.cl/" target="_blank">
+            <img src="dist/images/instagram-icon.svg">
+          </a>
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="dist/js/main.min.js"></script>
+</body>
+</html>
