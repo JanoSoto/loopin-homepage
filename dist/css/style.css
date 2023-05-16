@@ -421,6 +421,10 @@ body {}
   margin: 0 !important;
 }
 
+.no-center {
+  text-align: left !important;
+}
+
 .social-networks {
   text-align: right;
   padding: 0 24px;
