@@ -510,7 +510,7 @@ body {}
   margin: 0 20px;
 }
 
-.notice {
+.notice, .notice .feature {
   text-align: left;
 }
 .notice strong {
