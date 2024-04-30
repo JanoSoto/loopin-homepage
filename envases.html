@@ -72,7 +72,7 @@
             </a>
           </li>
           <li>
-            <a href="/canjes">
+            <a href="/tienda">
               Canjea tus puntos
             </a>
           </li>
@@ -108,238 +108,145 @@
                     <span class="disclaimer">*Tope máximo de 1.000 puntos adicionales</span>
                   </p>
 
-                  <h6 class="package-options-header">Selecciona el tipo de envase:</h6>
-                  <div class="package-options">
-                    <button class="package-option active button button-primary" data-table-id="#cervezas">
-                      Cervezas
-                    </button>
-                    <button class="package-option button button-primary" data-table-id="#licores">
-                      Licores
-                    </button>
-                    <button class="package-option button button-primary" data-table-id="#vinos">
-                      Vinos
-                    </button>
-                    <button class="package-option button button-primary" data-table-id="#jugos">
-                      Jugos
-                    </button>
-                    <button class="package-option button button-primary" data-table-id="#aguas">
-                      Aguas
-                    </button>
-                    <button class="package-option button button-primary" data-table-id="#otros">
-                      Mixers & Otros
-                    </button>
-                    <button class="package-option button button-primary" data-table-id="#frascos">
-                      Frascos
-                    </button>
-                  </div>
+                  <p>
+                    <span class="no-bold">Debes tener al menos</span> 30 envases<span class="no-bold">. El máximo por retiro es de</span> 150 envases 🚚
+                  </p>
 
                   <div class="tables-container">
-                    <table class="packages-container show" id="cervezas">
+                    <table class="">
                       <thead>
                         <tr>
+                          <th>Categoría</th>
                           <th>Tipo de envase</th>
-                          <th class="min-width">Puntos Loopin</th>
+                          <th>Pesos Loopin</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>Botella de 330cc o 355cc</td>
-                          <td>20 puntos 🍺</td>
+                          <td>Retornables ♻️</td>
+                          <td>Brugga 330cc</td>
+                          <td>20</td>
                         </tr>
                         <tr>
-                          <td>Botella de 500cc</td>
-                          <td>30 puntos 🍺</td>
+                          <td>Retornables ♻️</td>
+                          <td>Brugga 500cc</td>
+                          <td>30</td>
                         </tr>
                         <tr>
-                          <td>Botella de 650cc, 710cc o similar</td>
-                          <td>40 puntos 🍺</td>
-                        </tr>
-                      </tbody>
-                    </table>
-
-                    <table class="packages-container hidden" id="licores">
-                      <thead>
-                        <tr>
-                          <th>Tipo de envase</th>
-                          <th>Puntos Loopin</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Botella Vidrio 275cc</td>
-                          <td>20 puntos 🍸</td>
+                          <td>Retornables ♻️</td>
+                          <td>Alquitara 330cc</td>
+                          <td>20</td>
                         </tr>
                         <tr>
-                          <td>Botella Vidrio 700cc o 750cc</td>
-                          <td>50 puntos 🍸</td>
+                          <td>Retornables ♻️</td>
+                          <td>Gin 12 Noches</td>
+                          <td>60</td>
                         </tr>
                         <tr>
-                          <td>Botella Vidrio 1 Litro</td>
-                          <td>60 puntos 🍸</td>
-                        </tr>
-                      </tbody>
-                    </table>
-
-                    <table class="packages-container hidden" id="vinos">
-                      <thead>
-                        <tr>
-                          <th>Tipo de envase</th>
-                          <th>Puntos Loopin</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Botella 375cc</td>
-                          <td>30 puntos 🍷</td>
+                          <td>Retornables ♻️</td>
+                          <td>Wóter Soda 330cc</td>
+                          <td>20</td>
                         </tr>
                         <tr>
+                          <td>Retornables ♻️</td>
+                          <td>De Revuelta 500cc</td>
+                          <td>30</td>
+                        </tr>
+                        <tr>
+                          <td>Cervezas 🍺</td>
+                          <td>Botella 330cc o 355cc</td>
+                          <td>10</td>
+                        </tr>
+                        <tr>
+                          <td>Cervezas 🍺</td>
                           <td>Botella 500cc</td>
-                          <td>40 puntos 🍷</td>
+                          <td>20</td>
                         </tr>
                         <tr>
-                          <td>Botella 750cc</td>
-                          <td>50 puntos 🍷</td>
+                          <td>Cervezas 🍺</td>
+                          <td>Botella 650cc, 710cc o similar</td>
+                          <td>30</td>
                         </tr>
                         <tr>
+                          <td>Licores 🍸</td>
+                          <td>Botella Chica (500cc o menos)</td>
+                          <td>10</td>
+                        </tr>
+                        <tr>
+                          <td>Licores 🍸</td>
+                          <td>Botella Grande (más de 500cc)</td>
+                          <td>30</td>
+                        </tr>
+                        <tr>
+                          <td>Vinos 🍷</td>
+                          <td>Botella 375cc o 500cc</td>
+                          <td>10</td>
+                        </tr>
+                        <tr>
+                          <td>Vinos 🍷</td>
+                          <td>Botella 700cc o 750cc</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td>Vinos 🍷</td>
                           <td>Espumante 750cc</td>
-                          <td>50 puntos 🍷</td>
+                          <td>20</td>
                         </tr>
                         <tr>
-                          <td>Botellón 1,5 Litros</td>
-                          <td>60 puntos 🍷</td>
-                        </tr>
-                      </tbody>
-                    </table>
-
-                    <table class="packages-container hidden" id="jugos">
-                      <thead>
-                        <tr>
-                          <th>Tipo de envase</th>
-                          <th>Puntos Loopin</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Botella vidrio 200cc o 250cc</td>
-                          <td>20 puntos 🍊</td>
+                          <td>Vinos 🍷</td>
+                          <td>Botellón 1,5L o 2L</td>
+                          <td>30</td>
                         </tr>
                         <tr>
-                          <td>Botella vidrio 300cc o 350cc</td>
-                          <td>30 puntos 🍊</td>
+                          <td>Jugos 🍊</td>
+                          <td>Botella Chica (500cc o menos)</td>
+                          <td>10</td>
                         </tr>
                         <tr>
-                          <td>Botella vidrio 475cc</td>
-                          <td>40 puntos 🍊</td>
+                          <td>Jugos 🍊</td>
+                          <td>Botella Grande (más de 500cc)</td>
+                          <td>20</td>
                         </tr>
                         <tr>
-                          <td>Botella vidrio 1 Litro</td>
-                          <td>50 puntos 🍊</td>
-                        </tr>
-                      </tbody>
-                    </table>
-
-                    <table class="packages-container hidden" id="aguas">
-                      <thead>
-                        <tr>
-                          <th>Tipo de envase</th>
-                          <th>Puntos Loopin</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Botella vidrio 200cc o 250cc</td>
-                          <td>20 puntos 💧</td>
+                          <td>Aguas 💧</td>
+                          <td>Botella Chica (500cc o menos)</td>
+                          <td>10</td>
                         </tr>
                         <tr>
-                          <td>Botella vidrio 300cc, 330cc o 350cc</td>
-                          <td>30 puntos 💧</td>
+                          <td>Aguas 💧</td>
+                          <td>Botella Grande (más de 500cc)</td>
+                          <td>20</td>
                         </tr>
                         <tr>
-                          <td>Botella vidrio 475cc o 500cc</td>
-                          <td>40 puntos 💧</td>
-                        </tr>
-                      </tbody>
-                    </table>
-
-                    <table class="packages-container hidden" id="otros">
-                      <thead>
-                        <tr>
-                          <th>Tipo de envase</th>
-                          <th>Puntos Loopin</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
+                          <td>Mixers & Otros 🥤</td>
                           <td>Sidra 275cc o 330cc</td>
-                          <td>20 puntos 🥤</td>
+                          <td>10</td>
                         </tr>
                         <tr>
-                          <td>Tónica y Ginger Beer 200cc</td>
-                          <td>20 puntos 🥤</td>
+                          <td>Mixers & Otros 🥤</td>
+                          <td>Agua Tónica Chica (350cc o menos)</td>
+                          <td>10</td>
+                        </tr>
+                        <tr>
+                          <td>Mixers & Otros 🥤</td>
+                          <td>Ginger Beer (350cc o menos)</td>
+                          <td>10</td>
+                        </tr>
+                        <tr>
+                          <td>Frascos 🧂</td>
+                          <td>Frasco Chico (500cc o menos)</td>
+                          <td>10</td>
+                        </tr>
+                        <tr>
+                          <td>Frascos 🧂</td>
+                          <td>Frasco Grande (más de 500cc)</td>
+                          <td>20</td>
                         </tr>
                       </tbody>
                     </table>
-
-                    <table class="packages-container hidden" id="frascos">
-                      <thead>
-                        <tr>
-                          <th>Tipo de envase</th>
-                          <th>Puntos Loopin</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Frasco entre 10cc y 100cc</td>
-                          <td>20 puntos 🧂</td>
-                        </tr>
-                        <tr>
-                          <td>Frasco entre 101cc y 200cc</td>
-                          <td>30 puntos 🧂</td>
-                        </tr>
-                        <tr>
-                          <td>Frasco entre 201cc y 500cc</td>
-                          <td>40 puntos 🧂</td>
-                        </tr>
-                        <tr>
-                          <td>Frasco entre 501cc y 1.000cc</td>
-                          <td>50 puntos 🧂</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-
-                  <p>
-                    Los retiros son GRATIS <span class="no-bold">🎉🎉</span>
-                  </p>
-                  <div class="cta-cta">
-                    <a class="button button-primary" href="https://app.loopin.cl/withdrawals/new">Tengo envases para retirar</a>
                   </div>
                 </div>
               </p>
-
-              <div class="points-per-package features-inner section-inner has-bottom-divider">
-                <div class="feature is-revealing">
-                  <h3>Importante <span class="no-bold">📢</span></h3>
-                  <p>
-                    Para agendar un retiro debes tener <strong>al menos 30 envases</strong>. Pueden ser de cualquier tipo, pero deben ser 30.
-                  </p>
-                  <p>
-                    Solo los envases en buen estado acumulan puntos.
-                  </p>
-                  <p>
-                    El envase <strong>no</strong> debe estar roto y debe tener todas sus etiquetas para ser considerado en buen estado. Si gustas, nos podemos llevar de igual forma un envase en mal estado y lo llevaremos al reciclaje por ti, siempre y cuando cumplas con el mínimo de envases en buen estado para que retiremos ♻
-                  </p>
-                </div>
-
-                <div class="cta-aux-pages">
-                  <h6>
-                    ¿Aún no eres parte de Loopin?
-                  </h6>
-                  <div class="cta-cta">
-                    <a class="button button-primary" href="signup.html#points-per-package">Quiero inscribirme</a>
-                  </div>
-                </div>
-              </div>
             </div>
             <div class="hero-media">
               <div class="header-illustration">
@@ -353,6 +260,22 @@
               <div class="hero-media-container">
                 <img class="hero-media-image asset-light" src="dist/images/loopin-logo.png" alt="Hero media">
                 <img class="hero-media-image asset-dark" src="dist/images/hero-media-dark.svg" alt="Hero media">
+              </div>
+
+              <div class="cta-aux-pages">
+                <h6>
+                  ¿Aún no eres parte de Loopin?
+                </h6>
+                <div class="cta-cta">
+                  <a class="button button-primary" href="signup.html#points-per-package">Quiero inscribirme</a>
+                </div>
+              </div>
+
+              <p>
+                Los retiros son GRATIS <span class="no-bold">🎉🎉</span>
+              </p>
+              <div class="cta-cta">
+                <a class="button button-primary" href="https://app.loopin.cl/withdrawals/new">Tengo envases para retirar</a>
               </div>
             </div>
           </div>
@@ -417,27 +340,5 @@
   </div>
 
   <script src="dist/js/main.min.js"></script>
-  <script>
-    const package_options = document.querySelector('.package-options');
-    package_options.addEventListener('click', function(e) {
-      const packages_id = e.target.dataset.tableId;
-      if (packages_id) {
-        document.querySelectorAll('.package-option').forEach((button) => {
-          button.classList.remove('active')
-        })
-
-        document.querySelectorAll('.packages-container').forEach((package) => {
-          package.classList.add('hidden');
-          package.classList.remove('show');
-        });
-
-        e.target.classList.add('active');
-        document.querySelector(packages_id).classList.remove('hidden');
-        document.querySelector(packages_id).classList.add('show');
-
-        document.querySelector('.tables-container').style.minHeight = minHeight;
-      }
-    });
-  </script>
 </body>
 </html>
